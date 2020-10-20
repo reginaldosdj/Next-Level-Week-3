@@ -103,3 +103,6 @@ cursor: pointer;
     cursor: pointer;
 }
 
+.new-upload + .new-upload {
+    margin-top: .6rem;
+}
