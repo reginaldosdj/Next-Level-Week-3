@@ -12,7 +12,7 @@ module.exports = [
         ],
         instructions: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         opening_hours: "Horário de visitas Das 18h até 8h ",
-        opening_hours: "1"
+        open_on_weekends: "1"
     },
 
 
@@ -29,6 +29,6 @@ module.exports = [
         ],
         instructions: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         opening_hours: "Horário de visitas Das 9h até 20h ",
-        opening_hours: "0"
+        open_on_weekends: "0"
     }
 ]

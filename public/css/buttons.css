@@ -12,6 +12,8 @@
     justify-content: center;
     
     transition: background-color .2s;
+
+    text-decoration: none;
    }
    
    .primary-button:hover{
@@ -21,7 +23,7 @@
    .primary-button img {
        margin-right: 1.5rem;
    }
-   .button-select{
+   .button-select {
        display: grid;
       grid-template-columns: 1fr 1fr ;
    }

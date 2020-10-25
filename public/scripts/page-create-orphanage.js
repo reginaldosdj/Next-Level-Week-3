@@ -83,3 +83,13 @@ function toggleSelect(event) {
     // retirar a classe ".active"
 
 }
+/*
+function validate(event) {
+
+    //validar se lat e lng estão preenchidos
+    const needsLatAndLng = false;
+    if ( document.querySelector('[name=lat]').lat == "" &&  document.querySelector('[name=lng]').lng =="")
+    needsLatAndLng = true;
+    event.preventDefault()
+    alert('Selecione um ponto no mapa')
+}*/

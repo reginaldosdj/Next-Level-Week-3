@@ -6,9 +6,13 @@ const options = {
     zoomControl: false
 }
 
+//pegar valor do html
+const Lat = document.querySelector('span[data-lat]').dataset.lat
+const Lng = document.querySelector('span[data-lng]').dataset.lng
+
 //criar mapa
 
-const map = L.map('mapid', options).setView([-22.8666973,-43.264725],15);
+const map = L.map('mapid', options).setView([Lat,Lng],15);
 
 // criar e colocar uma camada
 L.tileLayer(
@@ -22,9 +26,8 @@ const icon = L.icon({
     popupAnchor: [170,35]
 })
 //criar popup
-
 L.
-marker([-22.8666973,-43.264725], { icon: icon })
+marker([Lat,Lng], { icon: icon })
 .addTo(map)
 
 /*galeria de imagem*/
